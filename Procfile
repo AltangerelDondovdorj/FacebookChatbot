@@ -1,1 +1,1 @@
-web: java -jar target/BigData-0.0.1-SNAPSHOT.war
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* FacebookChatbot
